@@ -1,0 +1,5 @@
+2022-07-19 09:22:04,517 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2022-07-19 09:22:04,522 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(21)-127.0.0.1] Stopping...
+2022-07-19 09:22:04,522 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(21)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@70ae174]]
+2022-07-19 09:22:04,523 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(21)-127.0.0.1] Stopped.
+2022-07-19 09:22:04,562 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

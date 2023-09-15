@@ -1,0 +1,39 @@
+2023-03-22 07:56:36,383 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 17.0.2 on Nayani with PID 12924 (C:\Users\R & D\eclipse-workspace\OSS\OSS\target\classes started by R & D in C:\Users\R & D\eclipse-workspace\OSS\OSS)
+2023-03-22 07:56:36,387 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.2, Spring v5.3.8
+2023-03-22 07:56:36,387 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-03-22 07:56:36,623 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-22 07:56:36,623 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-22 07:56:37,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-22 07:56:37,333 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-03-22 07:56:38,012 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2020 (http)
+2023-03-22 07:56:38,106 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1483 ms
+2023-03-22 07:56:38,302 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3308/test'
+2023-03-22 07:56:38,678 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-22 07:56:38,731 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-22 07:56:38,858 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-22 07:56:38,972 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-22 07:56:39,614 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-22 07:56:39,622 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-22 07:56:40,301 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2023-03-22 07:56:40,302 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2023-03-22 07:56:40,302 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/vendor/**'] with []
+2023-03-22 07:56:40,302 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2023-03-22 07:56:40,302 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2023-03-22 07:56:40,303 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2023-03-22 07:56:40,303 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/file/**'] with []
+2023-03-22 07:56:40,303 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2023-03-22 07:56:40,345 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14b9946d, org.springframework.security.web.context.SecurityContextPersistenceFilter@173d1962, org.springframework.security.web.header.HeaderWriterFilter@67d396d1, org.springframework.security.web.csrf.CsrfFilter@fb3d52e, org.springframework.security.web.authentication.logout.LogoutFilter@e452a89, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@114fced8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e21687a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6814ba05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a016d81, org.springframework.security.web.session.SessionManagementFilter@104e815f, org.springframework.security.web.access.ExceptionTranslationFilter@7c28f96b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a1b5687]
+2023-03-22 07:56:40,654 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-03-22 07:56:41,429 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2023-03-22 07:56:41,500 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2020 (http) with context path ''
+2023-03-22 07:56:41,503 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2023-03-22 07:56:41,504 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@165ee96f]]
+2023-03-22 07:56:41,505 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2023-03-22 07:56:41,516 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 5.469 seconds (JVM running for 6.313)
+2023-03-22 07:56:46,181 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2020-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-22 07:56:46,183 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-2020-exec-1] Completed initialization in 1 ms
+2023-03-22 07:57:11,477 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2023-03-22 07:57:11,480 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(4)-127.0.0.1] Stopping...
+2023-03-22 07:57:11,480 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(4)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@165ee96f]]
+2023-03-22 07:57:11,481 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(4)-127.0.0.1] Stopped.
+2023-03-22 07:57:11,501 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

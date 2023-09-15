@@ -1,0 +1,44 @@
+2021-08-13 08:45:38,840 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 1 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 3756]
+2021-08-13 09:12:31,248 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(334)-127.0.0.1] Application shutdown requested.
+2021-08-13 09:12:31,250 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(334)-127.0.0.1] Stopping...
+2021-08-13 09:12:31,250 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(334)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4582a915]]
+2021-08-13 09:12:31,250 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(334)-127.0.0.1] Stopped.
+2021-08-13 09:12:31,265 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(334)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 13:47:48,940 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 26586 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-08-13 13:47:48,941 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-13 13:47:49,090 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-13 13:47:49,090 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-13 13:47:49,499 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-13 13:47:49,537 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2021-08-13 13:47:49,922 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-08-13 13:47:49,969 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 879 ms
+2021-08-13 13:47:50,139 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-13 13:47:50,166 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-13 13:47:50,236 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-13 13:47:50,420 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-13 13:47:50,831 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-13 13:47:50,837 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-13 13:47:51,113 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-08-13 13:47:51,390 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-08-13 13:47:51,390 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-08-13 13:47:51,391 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-08-13 13:47:51,413 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c39bd7, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ec06b8c, org.springframework.security.web.header.HeaderWriterFilter@271004a2, org.springframework.security.web.csrf.CsrfFilter@2d1b9d25, org.springframework.security.web.authentication.logout.LogoutFilter@25c9e731, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@293a500f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65939855, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78a08363, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@122bbe8b, org.springframework.security.web.session.SessionManagementFilter@143d1c09, org.springframework.security.web.access.ExceptionTranslationFilter@5cfa5093, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51b62a74]
+2021-08-13 13:47:51,962 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-13 13:47:51,987 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-13 13:47:51,988 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-08-13 13:47:51,988 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5d37e440]]
+2021-08-13 13:47:51,988 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-08-13 13:47:51,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 3.278 seconds (JVM running for 3.875)
+2021-08-13 13:48:09,438 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-08-13 13:48:09,443 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(2)-127.0.0.1] Stopping...
+2021-08-13 13:48:09,444 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(2)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5d37e440]]
+2021-08-13 13:48:09,445 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(2)-127.0.0.1] Stopped.
+2021-08-13 13:48:09,477 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

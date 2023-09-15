@@ -1,0 +1,1455 @@
+2022-10-21 07:48:13,772 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 17.0.4.1 on DESKTOP-R1VQOLK with PID 12184 (C:\Users\RCS2\eclipse-workspace\QMS\QMS\QMS-3\target\classes started by RCS2 in C:\Users\RCS2\eclipse-workspace\QMS\QMS\QMS-3)
+2022-10-21 07:48:13,775 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-10-21 07:48:13,979 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 07:48:13,979 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 07:48:14,542 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-21 07:48:14,615 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 9 JPA repository interfaces.
+2022-10-21 07:48:15,222 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-10-21 07:48:15,300 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1320 ms
+2022-10-21 07:48:15,607 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-21 07:48:15,649 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-10-21 07:48:15,760 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-21 07:48:16,027 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-21 07:48:16,700 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-21 07:48:16,709 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-21 07:48:17,037 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/C:/Users/RCS2/eclipse-workspace/QMS/database/qmsdb'
+2022-10-21 07:48:17,649 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2022-10-21 07:48:17,649 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2022-10-21 07:48:17,649 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2022-10-21 07:48:17,650 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/file/**'] with []
+2022-10-21 07:48:17,651 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2022-10-21 07:48:17,651 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2022-10-21 07:48:17,684 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eec1efc, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ab68ca0, org.springframework.security.web.header.HeaderWriterFilter@360c6c3e, org.springframework.security.web.csrf.CsrfFilter@33bc92ec, org.springframework.security.web.authentication.logout.LogoutFilter@130bec2f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7d7117ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71c6fc74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44ab8094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6107cf8d, org.springframework.security.web.session.SessionManagementFilter@7bbc3bd8, org.springframework.security.web.access.ExceptionTranslationFilter@3b66eb46, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54615918]
+2022-10-21 07:48:18,578 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-21 07:48:18,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-21 07:48:18,630 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2022-10-21 07:48:18,630 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12d3f693]]
+2022-10-21 07:48:18,631 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2022-10-21 07:48:18,641 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 5.159 seconds (JVM running for 6.065)
+2022-10-21 07:49:17,739 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2022-10-21 07:49:48,360 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-21 07:49:48,361 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2022-10-21 07:55:27,856 INFO org.springframework.core.log.CompositeLog [Thread-8] Stopping...
+2022-10-21 07:55:27,857 INFO org.springframework.core.log.CompositeLog [Thread-8] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12d3f693]]
+2022-10-21 07:55:27,858 INFO org.springframework.core.log.CompositeLog [Thread-8] Stopped.
+2022-10-21 07:55:27,889 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-21 07:55:27,992 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 17.0.4.1 on DESKTOP-R1VQOLK with PID 12184 (C:\Users\RCS2\eclipse-workspace\QMS\QMS\QMS-3\target\classes started by RCS2 in C:\Users\RCS2\eclipse-workspace\QMS\QMS\QMS-3)
+2022-10-21 07:55:27,992 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-10-21 07:55:28,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-21 07:55:28,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 9 JPA repository interfaces.
+2022-10-21 07:55:28,372 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-10-21 07:55:28,396 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 396 ms
+2022-10-21 07:55:28,466 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-21 07:55:28,485 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-21 07:55:28,620 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-21 07:55:28,620 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-21 07:55:28,682 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/C:/Users/RCS2/eclipse-workspace/QMS/database/qmsdb'
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2022-10-21 07:55:29,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/file/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2022-10-21 07:55:29,067 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2022-10-21 07:55:29,080 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@673c5895, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e1bed0b, org.springframework.security.web.header.HeaderWriterFilter@3863d167, org.springframework.security.web.csrf.CsrfFilter@18128f5, org.springframework.security.web.authentication.logout.LogoutFilter@b4d72f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1331fb48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5772c9e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71bcd282, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dc8fcae, org.springframework.security.web.session.SessionManagementFilter@7655a5b4, org.springframework.security.web.access.ExceptionTranslationFilter@7edaf351, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69612be7]
+2022-10-21 07:55:29,427 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-21 07:55:29,442 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-21 07:55:29,443 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2022-10-21 07:55:29,444 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@40437499]]
+2022-10-21 07:55:29,446 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2022-10-21 07:55:29,451 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 1.491 seconds (JVM running for 436.875)
+2022-10-21 07:55:29,455 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-21 07:55:29,658 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-21 07:55:29,661 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2022-10-21 07:56:29,096 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 4 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(4)-CONNECTED(4)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 33], outboundChannel[pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 7], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 13]
+2022-10-21 08:26:29,096 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 14 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(14)-CONNECTED(14)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 123], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 27], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 444]
+2022-10-21 08:56:29,100 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 25 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(25)-CONNECTED(25)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 222], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 49], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 859]
+2022-10-21 09:26:29,101 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 36 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(36)-CONNECTED(36)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 321], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 71], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 1289]
+2022-10-21 09:56:29,103 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 60 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(60)-CONNECTED(60)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 534], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 118], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 1754]
+2022-10-21 10:26:29,104 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 81 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(81)-CONNECTED(81)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 723], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 160], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 2251]
+2022-10-21 10:56:29,106 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 91 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(91)-CONNECTED(91)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 813], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 180], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 2753]
+2022-10-21 11:08:52,381 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] Getting chart data
+2022-10-21 11:08:52,405 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] result: ChartDTO [thisYear=[null, null, null, null, null, null, null, null, null, null, null, null], lastYear=[null, null, null, null, null, null, null, null, null, null, null, null], pieChartData=[0, 0, 0, 0], servicePieChartData={"1":[0,0,0,0],"2":[0,0,0,0],"7":[0,0,0,0]}]
+2022-10-21 11:26:29,110 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 97 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(97)-CONNECTED(97)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 867], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 194], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 3254]
+2022-10-21 11:56:29,113 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 106 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(106)-CONNECTED(106)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 948], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 212], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 3753]
+2022-10-21 12:23:03,583 ERROR org.thymeleaf.TemplateEngine [http-nio-8081-exec-11] [THYMELEAF][http-nio-8081-exec-11] Exception processing template "display-page2": An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: (Line = 63, Column = 11) Incomplete structure: "<div margin: 0 auto;">
+										<br/>
+									</div>
+										<!-- clock widget end -->
+
+									</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Causorel Area -->
+	
+	<!-- Start Image PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 2 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<embed  th:src="${layout.filePath1}" >
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End 1st Image PDF Area -->
+
+<!-- Start PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 3" class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<img autoplay loop  allowFullScreen style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div> -->
+<!-- End PDF Area -->
+
+<!-- Start Video Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 4 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<iframe style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="nexttoken" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End Video Area -->
+<!-- <div class="box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8" id="content1">
+					<div class="row" style="height:100%;">
+						<div class="col-12" id="temp2">
+							<input type="text" class="" id="layoutid" name="layoutid" th:value="${layout.Id}" hidden />
+							<div style="text-align:center;padding:1em 0;"> 
+							<iframe class="time" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FColombo" width="100%" height="115" frameborder="0" seamless></iframe>
+							</div>
+					          </div>
+						</div>
+					</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+       
+
+
+
+		
+		<!-- ========================= JS here ========================= -->
+<!-- jQuery -->
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/count-up.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/tiny-slider.js"></script>
+	<script src="/assets/js/glightbox.min.js"></script>
+	<script src="/assets/js/imagesloaded.min.js"></script>
+	<script src="/assets/js/isotope.min.js"></script>
+	<script src="/assets/js/main.js"></script>
+	
+	<script type="text/javascript" th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
+	<script type="text/javascript" th:src="@{/plugins/webstomp/webstomp.min.js}"></script>
+
+
+	<script src="/js/content.js"></script>
+	<script src="js/display.js"></script>
+
+
+	
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 92 common frames omitted
+2022-10-21 12:23:03,590 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-11] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)] with root cause
+org.attoparser.ParseException: (Line = 63, Column = 11) Incomplete structure: "<div margin: 0 auto;">
+										<br/>
+									</div>
+										<!-- clock widget end -->
+
+									</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Causorel Area -->
+	
+	<!-- Start Image PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 2 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<embed  th:src="${layout.filePath1}" >
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End 1st Image PDF Area -->
+
+<!-- Start PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 3" class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<img autoplay loop  allowFullScreen style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div> -->
+<!-- End PDF Area -->
+
+<!-- Start Video Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 4 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<iframe style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="nexttoken" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End Video Area -->
+<!-- <div class="box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8" id="content1">
+					<div class="row" style="height:100%;">
+						<div class="col-12" id="temp2">
+							<input type="text" class="" id="layoutid" name="layoutid" th:value="${layout.Id}" hidden />
+							<div style="text-align:center;padding:1em 0;"> 
+							<iframe class="time" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FColombo" width="100%" height="115" frameborder="0" seamless></iframe>
+							</div>
+					          </div>
+						</div>
+					</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+       
+
+
+
+		
+		<!-- ========================= JS here ========================= -->
+<!-- jQuery -->
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/count-up.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/tiny-slider.js"></script>
+	<script src="/assets/js/glightbox.min.js"></script>
+	<script src="/assets/js/imagesloaded.min.js"></script>
+	<script src="/assets/js/isotope.min.js"></script>
+	<script src="/assets/js/main.js"></script>
+	
+	<script type="text/javascript" th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
+	<script type="text/javascript" th:src="@{/plugins/webstomp/webstomp.min.js}"></script>
+
+
+	<script src="/js/content.js"></script>
+	<script src="js/display.js"></script>
+
+
+	
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-21 12:23:04,647 ERROR org.thymeleaf.TemplateEngine [http-nio-8081-exec-7] [THYMELEAF][http-nio-8081-exec-7] Exception processing template "display-page2": An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: (Line = 63, Column = 11) Incomplete structure: "<div margin: 0 auto;">
+										<br/>
+									</div>
+										<!-- clock widget end -->
+
+									</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Causorel Area -->
+	
+	<!-- Start Image PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 2 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<embed  th:src="${layout.filePath1}" >
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End 1st Image PDF Area -->
+
+<!-- Start PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 3" class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<img autoplay loop  allowFullScreen style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div> -->
+<!-- End PDF Area -->
+
+<!-- Start Video Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 4 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<iframe style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="nexttoken" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End Video Area -->
+<!-- <div class="box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8" id="content1">
+					<div class="row" style="height:100%;">
+						<div class="col-12" id="temp2">
+							<input type="text" class="" id="layoutid" name="layoutid" th:value="${layout.Id}" hidden />
+							<div style="text-align:center;padding:1em 0;"> 
+							<iframe class="time" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FColombo" width="100%" height="115" frameborder="0" seamless></iframe>
+							</div>
+					          </div>
+						</div>
+					</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+       
+
+
+
+		
+		<!-- ========================= JS here ========================= -->
+<!-- jQuery -->
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/count-up.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/tiny-slider.js"></script>
+	<script src="/assets/js/glightbox.min.js"></script>
+	<script src="/assets/js/imagesloaded.min.js"></script>
+	<script src="/assets/js/isotope.min.js"></script>
+	<script src="/assets/js/main.js"></script>
+	
+	<script type="text/javascript" th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
+	<script type="text/javascript" th:src="@{/plugins/webstomp/webstomp.min.js}"></script>
+
+
+	<script src="/js/content.js"></script>
+	<script src="js/display.js"></script>
+
+
+	
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 92 common frames omitted
+2022-10-21 12:23:04,651 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/display-page2.html]" - line 63, col 11)] with root cause
+org.attoparser.ParseException: (Line = 63, Column = 11) Incomplete structure: "<div margin: 0 auto;">
+										<br/>
+									</div>
+										<!-- clock widget end -->
+
+									</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Causorel Area -->
+	
+	<!-- Start Image PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 2 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<embed  th:src="${layout.filePath1}" >
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End 1st Image PDF Area -->
+
+<!-- Start PDF Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 3" class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<img autoplay loop  allowFullScreen style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div> -->
+<!-- End PDF Area -->
+
+<!-- Start Video Area -->
+  <!-- <div id="lId" th:if="${layout.templateId} == 4 " class="col-12 box">
+		<div class="container-fluid">
+		<div class="row">
+				<div class="col-8" id="content1">
+					<input type="hidden" class="" id="layoutid" name="layoutid" th:value="${layout.Id}"  />
+					<iframe style="width:100%; height:100%;" th:src="${layout.filePath1}"></iframe>
+				</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-6" id="nexttoken">
+							<div class="row">
+								<div class="col-md-8">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 40px;">Next Token</label>
+								</div>
+								<div class="col-md-4">
+									<label id="nexttoken" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-06" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-md-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-md-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>-->
+<!-- End Video Area -->
+<!-- <div class="box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8" id="content1">
+					<div class="row" style="height:100%;">
+						<div class="col-12" id="temp2">
+							<input type="text" class="" id="layoutid" name="layoutid" th:value="${layout.Id}" hidden />
+							<div style="text-align:center;padding:1em 0;"> 
+							<iframe class="time" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FColombo" width="100%" height="115" frameborder="0" seamless></iframe>
+							</div>
+					          </div>
+						</div>
+					</div>
+				<div class="col-4" id="content2">
+					<div class="row">
+						<div class="col-md-12" id="nexttoken">
+							<div class="row">
+								<div class="col-md-6">
+									<label id="next" th:text="#{display.label.next}"
+										style="font-size: 30px;">Next Token</label>
+								</div>
+								<div class="col-md-6">
+									<label id="next" th:text="${count.nextToken}">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12" id="counter"
+							th:each="counter : ${counters}">
+							<div class="row">
+								<div class="col-6" th:id="${counter.name}">
+									<label th:text="${counter.name}+':'"></label>
+								</div>
+								<div class="col-6">
+									<label th:id="${counter.name}+'text'">___</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+       
+
+
+
+		
+		<!-- ========================= JS here ========================= -->
+<!-- jQuery -->
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/count-up.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/tiny-slider.js"></script>
+	<script src="/assets/js/glightbox.min.js"></script>
+	<script src="/assets/js/imagesloaded.min.js"></script>
+	<script src="/assets/js/isotope.min.js"></script>
+	<script src="/assets/js/main.js"></script>
+	
+	<script type="text/javascript" th:src="@{/webjars/sockjs-client/sockjs.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/stomp-websocket/stomp.min.js}"></script>
+	<script type="text/javascript" th:src="@{/plugins/webstomp/webstomp.min.js}"></script>
+
+
+	<script src="/js/content.js"></script>
+	<script src="js/display.js"></script>
+
+
+	
+</body>
+
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-21 12:26:29,114 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 120 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(120)-CONNECTED(120)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 1074], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 240], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 4251]
+2022-10-21 12:56:29,115 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 131 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(131)-CONNECTED(131)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 1173], outboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 262], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 4749]
+2022-10-21 13:26:29,117 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 158 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(158)-CONNECTED(158)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 1416], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 316], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 5242]
+2022-10-21 13:56:29,118 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 164 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(164)-CONNECTED(164)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1470], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 328], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 5744]
+2022-10-21 14:26:29,121 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 169 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(169)-CONNECTED(169)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1515], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 338], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 6246]
+2022-10-21 14:56:29,124 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 170 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(170)-CONNECTED(170)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1527], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 341], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 6732]
+2022-10-21 15:26:29,127 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 179 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(179)-CONNECTED(179)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1608], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 359], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 7160]
+2022-10-21 15:56:29,129 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 194 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(194)-CONNECTED(194)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1743], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 389], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 7586]
+2022-10-21 16:26:29,130 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 206 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(206)-CONNECTED(206)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 1848], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 412], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 8019]
+2022-10-21 16:56:29,133 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 211 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(211)-CONNECTED(211)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1893], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 422], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 8521]
+2022-10-21 17:26:29,136 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 222 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(222)-CONNECTED(222)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1992], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 444], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 9016]
+2022-10-21 17:28:15,507 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(582)-127.0.0.1] Application shutdown requested.
+2022-10-21 17:28:15,511 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(582)-127.0.0.1] Stopping...
+2022-10-21 17:28:15,511 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(582)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@40437499]]
+2022-10-21 17:28:15,512 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(582)-127.0.0.1] Stopped.
+2022-10-21 17:28:15,532 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(582)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

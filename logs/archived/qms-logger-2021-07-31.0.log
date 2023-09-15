@@ -1,0 +1,4 @@
+2021-07-31 19:52:09,266 INFO org.springframework.core.log.CompositeLog [SpringApplicationShutdownHook] Stopping...
+2021-07-31 19:52:09,267 INFO org.springframework.core.log.CompositeLog [SpringApplicationShutdownHook] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1d61873c]]
+2021-07-31 19:52:09,268 INFO org.springframework.core.log.CompositeLog [SpringApplicationShutdownHook] Stopped.
+2021-07-31 19:52:09,313 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

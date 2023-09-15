@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+	<th:block th:fragment="header">
+		<!-- ======= Header ======= -->
+		<header id="header" class="header fixed-top d-flex align-items-center">
+
+			<div class="d-flex align-items-center justify-content-between">
+				<i class="bi bi-list toggle-sidebar-btn"></i>
+				&nbsp; &nbsp; &nbsp;
+				<a href="/index" class="logo d-flex align-items-center"> <img
+					src="/img/logo.png" alt=""> <span class="d-none d-lg-block">Quizz Mart</span>
+				</a>
+			</div>
+			
+			<nav class="header-nav ms-auto">
+				<ul class="d-flex align-items-center">
+
+					<li class="nav-item d-block d-lg-none">
+						<a class="nav-link nav-icon search-bar-toggle " href="#"> 
+							<i class="bi bi-search"></i>
+						</a>
+					</li>
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+							<i class="bi bi-bell"></i>
+							<span id = "ntfCount" class="badge bg-danger badge-number" th:text = "${T(com.rcs2.mcqsys.model.Login).unreadNotificationCount}" th:if = "${T(com.rcs2.mcqsys.model.Login).unreadNotificationCount} > 0"></span>
+						</a><!-- End Notification Icon -->
+						<ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+							<li class="dropdown-header" th:text = "' You have ' + ${T(com.rcs2.mcqsys.model.Login).unreadNotificationCount} + ' new notifications '" th:if="${T(com.rcs2.mcqsys.model.Login).unreadNotificationCount != null}"></li>
+							<li class="dropdown-header" th:if="${T(com.rcs2.mcqsys.model.Login).unreadNotificationCount == null}">You have 0 new notifications</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li class="notification-item" th:each="notification : ${T(com.rcs2.mcqsys.model.Login).unreadNotificationList}">
+								<a th:href="@{/goToNotification(ntfId=${notification.ntfId})}"> 
+									<i class="bi bi-bell-fill text-primary"></i>
+									<div>
+										<h4 th:text = "${notification.topic}">Topic</h4>
+										<p th:text = "${notification.notification}">Notification Not Available</p>
+										<p th:text = "${notification.receiveTime} + '  |  ' + ${notification.receiveDate}">Receive Time</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li class="dropdown-footer">
+								<a href="/listNotifications"><span class="badge rounded-pill bg-warning p-2 ms-2 text-dark">View all</span></a>
+							</li>
+						</ul><!-- End Notification Dropdown Items -->
+					</li><!-- End Notification Nav -->
+
+					<li class="nav-item dropdown">
+						<a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+							<i class="bi bi-chat-left-text"></i> 
+							<span id="msgCount" class="badge bg-success badge-number" th:text = "${T(com.rcs2.mcqsys.model.Login).unreadMsgCount}" th:if = "${T(com.rcs2.mcqsys.model.Login).unreadMsgCount} > 0">0</span>
+						</a>
+						<!-- End Messages Icon -->
+						<ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+							<li class="dropdown-header" th:text = "' You have ' + ${T(com.rcs2.mcqsys.model.Login).unreadMsgCount} + ' new messages '" th:if="${T(com.rcs2.mcqsys.model.Login).unreadMsgCount != null }"></li>
+							<li class="dropdown-header" th:if="${T(com.rcs2.mcqsys.model.Login).unreadMsgCount == null}">You have 0 new messages </li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li class="message-item" th:each="message : ${T(com.rcs2.mcqsys.model.Login).unreadMsgList}">
+								<a th:href="@{/goToChat(messageId=${message.messageId})}"> 
+									<i class="bi bi-envelope-fill text-primary"></i> 
+									<div>
+										<h4 th:text = "${message.sentFrom.name}">Sender Name</h4>
+										<p th:text = "${message.message}">Message Not Displaying</p>
+										<p th:text = "${message.sentTime} + '  |  ' + ${message.sentDate}">Sent Time</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li class="dropdown-footer">
+								<a href="/listMessages"><span class="badge rounded-pill bg-warning p-2 ms-2 text-dark" >View all</span></a>
+							</li>
+
+						</ul>
+					</li>
+					
+					<li class="nav-item dropdown pe-3">
+						<a class="nav-link nav-icon d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown"> 
+							<img th:src="${session.profile.profilePic}" alt="Profile" class="rounded-circle" th:if="${(session.profile.profilePic) != null}">
+							<img src="img/profile.png" alt="Profile" class="rounded-circle" th:if="${session.profile.profilePic == null}">
+							<span  class="d-none d-md-block dropdown-toggle ps-2" th:text="${T(com.rcs2.mcqsys.model.Login).user.username}"></span>
+							<!-- <input  th:value="${#authentication}" type="text"> -->
+						</a>
+						
+						
+						<ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+							<li class="dropdown-header">
+								<h6><span th:text="${T(com.rcs2.mcqsys.model.Login).user.email}"></span></h6> 
+								<span th:text="${T(com.rcs2.mcqsys.model.Login).user.name}"></span>
+							</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+
+							<li>
+								<a class="dropdown-item d-flex align-items-center" href="/userProfile"> 
+									<i class="bi bi-person"></i> 
+									<span>My Profile</span>
+								</a>
+							</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li> 
+							<!-- 
+							<li>
+								<a class="dropdown-item d-flex align-items-center" href=""> 
+									<i class="bi bi-gear"></i> 
+									<span>Account Settings</span>
+								</a>
+							</li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+
+							<li>
+								<a class="dropdown-item d-flex align-items-center" href=""> 
+									<i class="bi bi-question-circle"></i>
+									<span>Need Help?</span>
+								</a>
+							</li>
+							 -->
+							  
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							 
+							<li>
+								<a class="dropdown-item d-flex align-items-center" th:href="@{/logout}"> 
+									<i class="bi bi-box-arrow-right"></i>
+									<span>Sign Out</span>
+								</a>
+							</li>
+
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+			<!-- End Icons Navigation -->
+		</header>
+		<!-- End Header -->
+	</th:block>
+</body>
+</html>

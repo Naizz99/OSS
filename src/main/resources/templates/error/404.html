@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<title>QMS 404 Error</title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+<!-- Place favicon.ico in the root directory -->
+
+<!-- Web Font -->
+<!-- <link
+	href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+	rel="stylesheet"> -->
+
+<!-- ========================= CSS here ========================= -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/LineIcons.2.0.css" />
+<link rel="stylesheet" href="/assets/css/animate.css" />
+<link rel="stylesheet" href="/assets/css/tiny-slider.css" />
+<link rel="stylesheet" href="/assets/css/glightbox.min.css" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+<style>
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+</style>
+</head>
+<body class="hold-transition sidebar-mini">
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="preloader-inner">
+			<div class="preloader-icon">
+				<span></span> <span></span>
+			</div>
+		</div>
+	</div>
+	  <!-- Start Header Area -->
+  <header class="header">
+    <div class="navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand logo" href="/display?lang=en">
+                <img class="logo1" src="/img/Klassmate-logo.png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ml-auto">
+                	<li class="nav-item"><a th:class="${lang=='si' ? 'active' : ''}"  th:href="@{''(lang=si)}" >සිංහල</a></li>
+                	<li class="nav-item"><a th:class="${lang=='ta' ? 'active' : ''}" th:href="@{''(lang=ta)}">தமிழ்</a> </li>             
+                    <li class="nav-item"><a th:class="${lang=='en' ? 'active' : ''}" th:href="@{''(lang=en)}">English</a></li>
+                </ul>
+              </div>
+              <!-- navbar collapse -->
+           <!--    <div class="button" sec:authorize="isAuthenticated()">
+                <a href="#" id="logout" ><img src="img/logout.png" alt="Logout" /></a>
+              </div> -->
+            </nav>
+            </nav>
+            <!-- navbar -->
+
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!-- navbar area -->
+  </header>
+  <!-- End Header Area -->
+    <!-- Start Breadcrumbs -->
+       <div class="breadcrumbs" style="padding-bottom: 15px;padding-top: 85px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-12">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start Error Page Area -->
+    <section class="error-page section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <!-- Error Image -->
+                    <div class="error-image">
+                        <img src="/assets/images/error.svg" alt="#">
+                    </div>
+                    <!--/ End Error Image -->
+                </div>
+                <div class="col-lg-6 col-12">
+                    <!-- Error Text -->
+                    <div class="error-text">
+                        <h2><span>Sorry!</span>Page Not Found</h2>
+                        <p>Oops! The page you are looking for does not exist.</p>
+                        <div class="button">
+                            <a href="/display?lang=en" class="btn">Go Home</a>
+                        </div>
+                    </div>
+                    <!--/ End Error Text -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Error Page Area-->
+    <!-- Start Footer Area -->
+		<footer id="footer"  class="footer">
+			<!-- Start Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-12">
+								<div class="left">
+									<p>
+										<strong>Copyright &copy; 2015-2021 <a
+											href="http://RCS2Technologies.com"><span
+												class="text-danger">RCS2Technologies.com</span></a></strong> All rights
+										reserved.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Footer Middle -->
+		</footer>
+		<!--/ End Footer Area -->
+	<!-- jQuery -->
+	<script type="text/javascript" th:src="@{/plugins/jquery/jquery.min.js}"></script>
+	
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/count-up.min.js"></script>
+	<script src="/assets/js/wow.min.js"></script>
+	<script src="/assets/js/tiny-slider.js"></script>
+	<script src="/assets/js/glightbox.min.js"></script>
+	<script src="/assets/js/imagesloaded.min.js"></script>
+	<script src="/assets/js/isotope.min.js"></script>
+	<script th:src="@{/assets/js/main.js}" type="text/javascript"></script>
+</body>
+
+</html>

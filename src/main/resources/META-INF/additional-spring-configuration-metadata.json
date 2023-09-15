@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "key-password",
+    "type": "java.lang.String",
+    "description": "A description for 'key-password'"
+  },
+  {
+    "name": "key-alias",
+    "type": "java.lang.String",
+    "description": "A description for 'key-alias'"
+  },
+  {
+    "name": "key-store-type",
+    "type": "java.lang.String",
+    "description": "A description for 'key-store-type'"
+  },
+  {
+    "name": "key-store-password",
+    "type": "java.lang.String",
+    "description": "A description for 'key-store-password'"
+  },
+  {
+    "name": "port",
+    "type": "java.lang.String",
+    "description": "A description for 'port'"
+  },
+  {
+    "name": "ssl",
+    "type": "java.lang.String",
+    "description": "A description for 'ssl'"
+  },
+  {
+    "name": "server",
+    "type": "java.lang.String",
+    "description": "A description for 'server'"
+  },
+  {
+    "name": "key-store",
+    "type": "java.lang.String",
+    "description": "A description for 'key-store'"
+  },
+  {
+    "name": "enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'enabled'"
+  },
+  {
+    "name": "context-path",
+    "type": "java.lang.String",
+    "description": "A description for 'context-path'"
+  },
+  {
+    "name": "servlet",
+    "type": "java.lang.String",
+    "description": "A description for 'servlet'"
+  }
+]}

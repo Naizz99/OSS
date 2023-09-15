@@ -1,0 +1,470 @@
+2021-09-03 18:33:03,164 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 26673 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 18:33:03,166 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 18:33:03,324 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-03 18:33:03,324 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-03 18:33:03,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 18:33:03,865 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2021-09-03 18:33:04,347 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 18:33:04,421 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1096 ms
+2021-09-03 18:33:04,662 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 18:33:04,711 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-03 18:33:04,797 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-03 18:33:05,033 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 18:33:05,474 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 18:33:05,479 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 18:33:05,776 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 18:33:06,083 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 18:33:06,084 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 18:33:06,085 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 18:33:06,085 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 18:33:06,113 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@515f75df, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ef32a1e, org.springframework.security.web.header.HeaderWriterFilter@58111f2e, org.springframework.security.web.csrf.CsrfFilter@e720d61, org.springframework.security.web.authentication.logout.LogoutFilter@564fddb8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b440c95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47a843b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a875876, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ba487e9, org.springframework.security.web.session.SessionManagementFilter@5451e29d, org.springframework.security.web.access.ExceptionTranslationFilter@737b11d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55480d9e]
+2021-09-03 18:33:06,731 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 18:33:06,761 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 18:33:06,762 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 18:33:06,762 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@40f1a1e3]]
+2021-09-03 18:33:06,762 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 18:33:06,771 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 3.887 seconds (JVM running for 4.602)
+2021-09-03 18:33:18,678 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-03 18:33:18,679 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2021-09-03 18:33:19,941 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] getting success find the category services
+2021-09-03 18:33:33,316 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] Create Token request: CustomerDto(tokenId=null, nic=198335201993, dob=, gender=male, service=1, mobileNo=)
+2021-09-03 18:33:33,323 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-8] Barcorde remort create request token info: CustomerDto(tokenId=null, nic=198335201993, dob=, gender=male, service=1, mobileNo=), isIdentity:true
+2021-09-03 18:33:33,973 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-8] Successfuly create remort barcode<200,RemortBarcodeRecordCreateDTO(isIdentification=true, identification=198335201993, gender=null, dateOfBirth=null, serviceId=1, barcodeNumber=1, isActive=true, mobileNo=),[Content-Length:"154", Content-Type:"application/json; charset=utf-8", Server:"Microsoft-IIS/10.0", api-supported-versions:"1.0", X-Powered-By:"ASP.NET", Set-Cookie:"ARRAffinity=36b600bf637fae12c86bd5a11e288cbf7cf884604d894bb14cedb1dae34b1fa7;Path=/;HttpOnly;Secure;Domain=barcode-integration-demo.azurewebsites.net", "ARRAffinitySameSite=36b600bf637fae12c86bd5a11e288cbf7cf884604d894bb14cedb1dae34b1fa7;Path=/;HttpOnly;SameSite=None;Secure;Domain=barcode-integration-demo.azurewebsites.net", Date:"Fri, 03 Sep 2021 13:03:33 GMT"]>
+2021-09-03 18:33:34,028 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] customer:Token(id=70, qmsCounter=null, servicedBy=null, nic=198335201993, dob=, gender=male, serviceCategory=1, mobileNo=, qrText=null, tokenNumber=1, remortCallStatus=null, description=null, status=ISSUED, issuedDate=Fri Sep 03 00:00:00 IST 2021, processDate=null, createdDate=Fri Sep 03 18:33:34 IST 2021, completedDate=null)
+2021-09-03 18:34:06,168 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 19:04:06,169 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2021-09-03 19:34:06,171 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2021-09-03 19:46:28,104 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(78)-127.0.0.1] Application shutdown requested.
+2021-09-03 19:46:28,108 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(78)-127.0.0.1] Stopping...
+2021-09-03 19:46:28,108 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(78)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@40f1a1e3]]
+2021-09-03 19:46:28,109 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(78)-127.0.0.1] Stopped.
+2021-09-03 19:46:28,129 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(78)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 19:53:35,133 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 30095 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 19:53:35,135 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 19:53:35,291 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-03 19:53:35,291 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-03 19:53:35,710 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 19:53:35,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2021-09-03 19:53:36,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 19:53:36,305 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1013 ms
+2021-09-03 19:53:36,519 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 19:53:36,552 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-03 19:53:36,634 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-03 19:53:36,842 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 19:53:37,289 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 19:53:37,294 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 19:53:37,570 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 19:53:37,885 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 19:53:37,885 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 19:53:37,886 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 19:53:37,887 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 19:53:37,887 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 19:53:37,914 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13684d6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@575f0dde, org.springframework.security.web.header.HeaderWriterFilter@592cfd2d, org.springframework.security.web.csrf.CsrfFilter@320551df, org.springframework.security.web.authentication.logout.LogoutFilter@69ca2e53, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21cb14c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d7bec59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17f78eab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4575aec3, org.springframework.security.web.session.SessionManagementFilter@3b984d62, org.springframework.security.web.access.ExceptionTranslationFilter@319e37eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@701348e4]
+2021-09-03 19:53:38,499 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 19:53:38,528 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 19:53:38,529 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 19:53:38,530 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7d6da7a9]]
+2021-09-03 19:53:38,530 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 19:53:38,537 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 3.646 seconds (JVM running for 4.292)
+2021-09-03 19:53:58,645 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-03 19:53:58,646 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2021-09-03 19:53:59,851 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] getting success find the category services
+2021-09-03 19:54:08,850 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-7] Create Token request: CustomerDto(tokenId=null, nic=198335201993, dob=, gender=male, service=1, mobileNo=)
+2021-09-03 19:54:08,859 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-7] Barcorde remort create request token info: CustomerDto(tokenId=null, nic=198335201993, dob=, gender=male, service=1, mobileNo=), isIdentity:true
+2021-09-03 19:54:09,607 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-7] Successfuly create remort barcode<200,RemortBarcodeRecordCreateDTO(isIdentification=true, identification=198335201993, gender=null, dateOfBirth=null, serviceId=1, barcodeNumber=2, isActive=true, mobileNo=),[Content-Length:"154", Content-Type:"application/json; charset=utf-8", Server:"Microsoft-IIS/10.0", api-supported-versions:"1.0", X-Powered-By:"ASP.NET", Set-Cookie:"ARRAffinity=36b600bf637fae12c86bd5a11e288cbf7cf884604d894bb14cedb1dae34b1fa7;Path=/;HttpOnly;Secure;Domain=barcode-integration-demo.azurewebsites.net", "ARRAffinitySameSite=36b600bf637fae12c86bd5a11e288cbf7cf884604d894bb14cedb1dae34b1fa7;Path=/;HttpOnly;SameSite=None;Secure;Domain=barcode-integration-demo.azurewebsites.net", Date:"Fri, 03 Sep 2021 14:24:09 GMT"]>
+2021-09-03 19:54:09,664 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-7] customer:Token(id=71, qmsCounter=null, servicedBy=null, nic=198335201993, dob=, gender=male, serviceCategory=1, mobileNo=, qrText=null, tokenNumber=2, remortCallStatus=null, description=null, status=ISSUED, issuedDate=Fri Sep 03 00:00:00 IST 2021, processDate=null, createdDate=Fri Sep 03 19:54:09 IST 2021, completedDate=null)
+2021-09-03 19:54:37,965 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 19:54:47,311 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-3] Find token by token Number:2
+2021-09-03 19:54:49,745 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-5] Start to process token, token text:2, counter number1
+2021-09-03 19:54:49,780 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-5] Barcorde remort send request token number: 2
+2021-09-03 19:54:50,519 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-5] Barcorde remort send success
+2021-09-03 19:56:02,122 INFO org.springframework.core.log.CompositeLog [Thread-8] Stopping...
+2021-09-03 19:56:02,123 INFO org.springframework.core.log.CompositeLog [Thread-8] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7d6da7a9]]
+2021-09-03 19:56:02,123 INFO org.springframework.core.log.CompositeLog [Thread-8] Stopped.
+2021-09-03 19:56:02,165 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 19:56:02,322 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 30095 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 19:56:02,323 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 19:56:02,444 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 19:56:02,451 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2021-09-03 19:56:02,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 19:56:02,549 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 225 ms
+2021-09-03 19:56:02,597 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 19:56:02,606 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 19:56:02,675 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 19:56:02,675 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 19:56:02,726 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 19:56:02,844 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 19:56:02,844 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 19:56:02,844 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 19:56:02,844 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 19:56:02,845 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 19:56:02,856 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30f5e38c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2919a45a, org.springframework.security.web.header.HeaderWriterFilter@77be5a6c, org.springframework.security.web.csrf.CsrfFilter@376700b2, org.springframework.security.web.authentication.logout.LogoutFilter@2d77d9f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f509ff1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48a54b54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d4d0516, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@dfe8e22, org.springframework.security.web.session.SessionManagementFilter@267442b6, org.springframework.security.web.access.ExceptionTranslationFilter@4a65770a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c5a7f97]
+2021-09-03 19:56:03,057 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 19:56:03,074 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 19:56:03,075 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 19:56:03,075 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1e67300]]
+2021-09-03 19:56:03,075 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 19:56:03,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 0.789 seconds (JVM running for 148.835)
+2021-09-03 19:56:03,081 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-09-03 19:56:11,346 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-03 19:56:11,349 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2021-09-03 19:56:16,482 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] Find token by token Number:1
+2021-09-03 19:56:17,821 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-10] Start to process token, token text:1, counter number1
+2021-09-03 19:56:17,843 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-10] Barcorde remort send request token number: 1
+2021-09-03 19:56:19,342 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-10] Barcorde remort send success
+2021-09-03 19:57:00,949 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-1] Find token by token Number:1
+2021-09-03 19:57:02,868 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 19:57:04,129 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-7] Find token by token Number:3
+2021-09-03 19:57:18,456 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] getting success find the category services
+2021-09-03 19:58:41,843 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-8] Find token by token Number:1
+2021-09-03 19:59:31,324 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-1] Start to process token, token text:1, counter number1
+2021-09-03 19:59:31,345 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] Barcorde remort send request token number: 1
+2021-09-03 19:59:32,283 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] Barcorde remort send success
+2021-09-03 20:02:33,532 INFO org.springframework.core.log.CompositeLog [Thread-10] Stopping...
+2021-09-03 20:02:33,532 INFO org.springframework.core.log.CompositeLog [Thread-10] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1e67300]]
+2021-09-03 20:02:33,532 INFO org.springframework.core.log.CompositeLog [Thread-10] Stopped.
+2021-09-03 20:02:33,547 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:02:33,690 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 30095 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 20:02:33,690 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 20:02:33,808 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 20:02:33,815 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2021-09-03 20:02:33,908 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 20:02:33,919 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 227 ms
+2021-09-03 20:02:33,964 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 20:02:33,971 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 20:02:34,021 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 20:02:34,022 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:02:34,078 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 20:02:34,211 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 20:02:34,211 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 20:02:34,211 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 20:02:34,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 20:02:34,213 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 20:02:34,224 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3079d6aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@6eadcd31, org.springframework.security.web.header.HeaderWriterFilter@7d3e93bc, org.springframework.security.web.csrf.CsrfFilter@41976ad, org.springframework.security.web.authentication.logout.LogoutFilter@2f9dcd7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14bc26c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74322810, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d98f659, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f41638, org.springframework.security.web.session.SessionManagementFilter@21ce7bbb, org.springframework.security.web.access.ExceptionTranslationFilter@77adb509, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29fddba2]
+2021-09-03 20:02:34,443 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 20:02:34,452 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 20:02:34,453 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 20:02:34,453 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3484b4aa]]
+2021-09-03 20:02:34,453 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 20:02:34,458 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 0.806 seconds (JVM running for 540.213)
+2021-09-03 20:02:34,460 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-09-03 20:02:44,711 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-03 20:02:44,713 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2021-09-03 20:02:52,532 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-1] Find token by token Number:2
+2021-09-03 20:03:22,679 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-2] Start to process token, token text:2, counter number1
+2021-09-03 20:03:22,698 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-2] Barcorde remort send request token number: 2
+2021-09-03 20:03:23,505 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-2] Barcorde remort send success
+2021-09-03 20:03:34,237 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 20:09:31,218 INFO org.springframework.core.log.CompositeLog [Thread-16] Stopping...
+2021-09-03 20:09:31,219 INFO org.springframework.core.log.CompositeLog [Thread-16] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3484b4aa]]
+2021-09-03 20:09:31,220 INFO org.springframework.core.log.CompositeLog [Thread-16] Stopped.
+2021-09-03 20:09:31,258 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:09:31,354 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 30095 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 20:09:31,355 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 20:09:31,447 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 20:09:31,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+2021-09-03 20:09:31,535 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 20:09:31,542 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 186 ms
+2021-09-03 20:09:31,576 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 20:09:31,583 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 20:09:31,621 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 20:09:31,621 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:09:31,674 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 20:09:31,805 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 20:09:31,805 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 20:09:31,805 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 20:09:31,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 20:09:31,816 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40eb4917, org.springframework.security.web.context.SecurityContextPersistenceFilter@79b389b8, org.springframework.security.web.header.HeaderWriterFilter@42d25c0, org.springframework.security.web.csrf.CsrfFilter@2050cd02, org.springframework.security.web.authentication.logout.LogoutFilter@70b976a4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68a1c760, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ce98edc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2107a1a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4440ee3, org.springframework.security.web.session.SessionManagementFilter@5fad6792, org.springframework.security.web.access.ExceptionTranslationFilter@316cf35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7add0e41]
+2021-09-03 20:09:32,042 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 20:09:32,052 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 20:09:32,052 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 20:09:32,052 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@a765638]]
+2021-09-03 20:09:32,052 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 20:09:32,056 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 0.724 seconds (JVM running for 957.811)
+2021-09-03 20:09:32,058 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-09-03 20:09:41,041 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-03 20:09:41,046 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 4 ms
+2021-09-03 20:09:41,054 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-1] Find token by token Number:1
+2021-09-03 20:09:44,032 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-2] Find token by token Number:2
+2021-09-03 20:10:25,640 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-9] Find token by token Number:2
+2021-09-03 20:10:31,830 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 20:10:32,358 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-1] Start to process token, token text:2, counter number1
+2021-09-03 20:10:32,378 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-1] Barcorde remort send request token number: 2
+2021-09-03 20:10:33,060 ERROR com.rcs2.cms.exception.GlobalExceptionHandler [http-nio-8081-exec-1] Exception during execution of QMS application
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:621)
+	at com.rcs2.cms.service.RestClient.sendBarcoderecord(RestClient.java:208)
+	at com.rcs2.cms.service.RestClient$$FastClassBySpringCGLIB$$aced4fe0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.rcs2.cms.service.RestClient$$EnhancerBySpringCGLIB$$f0f57ad9.sendBarcoderecord(<generated>)
+	at com.rcs2.cms.controller.QMSController.tokenProcess(QMSController.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-09-03 20:10:33,063 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-1] Resolved [org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: [no body]]
+2021-09-03 20:13:10,873 INFO org.springframework.core.log.CompositeLog [Thread-22] Stopping...
+2021-09-03 20:13:10,874 INFO org.springframework.core.log.CompositeLog [Thread-22] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@a765638]]
+2021-09-03 20:13:10,874 INFO org.springframework.core.log.CompositeLog [Thread-22] Stopped.
+2021-09-03 20:13:10,887 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-22] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:13:11,033 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 30095 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 20:13:11,033 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 20:13:11,164 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 20:13:11,172 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+2021-09-03 20:13:11,281 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 20:13:11,290 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 255 ms
+2021-09-03 20:13:11,343 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 20:13:11,351 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 20:13:11,391 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 20:13:11,391 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:13:11,452 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 20:13:11,592 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 20:13:11,592 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 20:13:11,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 20:13:11,606 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c0d2409, org.springframework.security.web.context.SecurityContextPersistenceFilter@466c04, org.springframework.security.web.header.HeaderWriterFilter@4b0ecefc, org.springframework.security.web.csrf.CsrfFilter@2020a1bf, org.springframework.security.web.authentication.logout.LogoutFilter@400aaecd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a26ba9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ba27293, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26e62635, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a277a13, org.springframework.security.web.session.SessionManagementFilter@254e1c4b, org.springframework.security.web.access.ExceptionTranslationFilter@3b74117e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49a9b4e]
+2021-09-03 20:13:11,849 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 20:13:11,862 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 20:13:11,863 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 20:13:11,863 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5ab97176]]
+2021-09-03 20:13:11,863 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 20:13:11,868 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 0.872 seconds (JVM running for 1177.623)
+2021-09-03 20:13:11,870 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-09-03 20:13:39,159 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(23)-127.0.0.1] Application shutdown requested.
+2021-09-03 20:13:39,161 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(23)-127.0.0.1] Stopping...
+2021-09-03 20:13:39,162 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(23)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5ab97176]]
+2021-09-03 20:13:39,163 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(23)-127.0.0.1] Stopped.
+2021-09-03 20:13:39,176 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(23)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:13:55,432 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 31687 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 20:13:55,437 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 20:13:55,689 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-03 20:13:55,689 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-03 20:13:56,418 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 20:13:56,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-09-03 20:13:57,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 20:13:57,188 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1498 ms
+2021-09-03 20:13:57,504 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 20:13:57,549 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-03 20:13:57,670 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-03 20:13:57,976 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 20:13:58,623 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 20:13:58,631 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:13:59,075 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 20:13:59,571 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 20:13:59,572 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 20:13:59,572 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 20:13:59,572 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 20:13:59,573 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 20:13:59,573 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 20:13:59,573 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 20:13:59,574 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 20:13:59,574 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 20:13:59,574 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 20:13:59,574 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 20:13:59,611 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59f8137d, org.springframework.security.web.context.SecurityContextPersistenceFilter@ef634a9, org.springframework.security.web.header.HeaderWriterFilter@69baefc1, org.springframework.security.web.csrf.CsrfFilter@5822a217, org.springframework.security.web.authentication.logout.LogoutFilter@7dabf76f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@233ca180, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7274235f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5160b88e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a673cae, org.springframework.security.web.session.SessionManagementFilter@1561afe5, org.springframework.security.web.access.ExceptionTranslationFilter@5f828bf6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@573af7e6]
+2021-09-03 20:14:00,697 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 20:14:00,740 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 20:14:00,742 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 20:14:00,743 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@47749a5]]
+2021-09-03 20:14:00,743 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 20:14:00,755 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 5.715 seconds (JVM running for 6.876)
+2021-09-03 20:14:09,442 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Initializing Servlet 'dispatcherServlet'
+2021-09-03 20:14:09,445 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed initialization in 2 ms
+2021-09-03 20:14:59,696 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 20:15:00,578 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-4] Find token by token Number:1
+2021-09-03 20:15:02,035 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-10] Start to process token, token text:1, counter number1
+2021-09-03 20:15:02,102 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-10] Barcorde remort send request token number: 1
+2021-09-03 20:16:05,646 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-10] Barcorde remort send success
+2021-09-03 20:17:04,302 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-10] Find token by token Number:2
+2021-09-03 20:17:05,824 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-7] Start to process token, token text:2, counter number1
+2021-09-03 20:17:05,833 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-7] Barcorde remort send request token number: 2
+2021-09-03 20:17:23,363 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-7] Barcorde remort send success
+2021-09-03 20:17:41,314 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2021-09-03 20:17:41,317 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(7)-127.0.0.1] Stopping...
+2021-09-03 20:17:41,317 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(7)-127.0.0.1] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@47749a5]]
+2021-09-03 20:17:41,317 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(7)-127.0.0.1] Stopped.
+2021-09-03 20:17:41,338 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:17:54,792 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Qms3Application using Java 15.0.2 on janaka-Vostro-3578 with PID 32112 (/home/janaka/eclipse-workspace/QMS-3/target/classes started by janaka in /home/janaka/eclipse-workspace/QMS-3)
+2021-09-03 20:17:54,794 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-03 20:17:55,014 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-03 20:17:55,014 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-03 20:17:55,618 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-03 20:17:55,659 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2021-09-03 20:17:56,228 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-09-03 20:17:56,303 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1288 ms
+2021-09-03 20:17:56,557 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-03 20:17:56,593 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-03 20:17:56,689 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-03 20:17:56,976 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-03 20:17:57,528 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-03 20:17:57,536 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-03 20:17:57,925 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/home/janaka/QMS/database/qmsdb'
+2021-09-03 20:17:58,318 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/resources/**'] with []
+2021-09-03 20:17:58,318 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/static/**'] with []
+2021-09-03 20:17:58,318 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/plugins/**'] with []
+2021-09-03 20:17:58,318 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/css/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/js/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/css/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/assets/js/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/img/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-09-03 20:17:58,319 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/h2-console/**'] with []
+2021-09-03 20:17:58,357 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@171027d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@51fcc77c, org.springframework.security.web.header.HeaderWriterFilter@32a73a13, org.springframework.security.web.csrf.CsrfFilter@275c585c, org.springframework.security.web.authentication.logout.LogoutFilter@786502f1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@324d27fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7eb84312, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6307fc3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@360a9ca6, org.springframework.security.web.session.SessionManagementFilter@23820684, org.springframework.security.web.access.ExceptionTranslationFilter@6d876bd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b48817a]
+2021-09-03 20:17:59,151 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-09-03 20:17:59,188 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-03 20:17:59,190 INFO org.springframework.core.log.CompositeLog [restartedMain] Starting...
+2021-09-03 20:17:59,190 INFO org.springframework.core.log.CompositeLog [restartedMain] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4f90c3]]
+2021-09-03 20:17:59,191 INFO org.springframework.core.log.CompositeLog [restartedMain] Started.
+2021-09-03 20:17:59,200 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Qms3Application in 4.715 seconds (JVM running for 5.563)
+2021-09-03 20:18:02,529 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Initializing Servlet 'dispatcherServlet'
+2021-09-03 20:18:02,531 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-5] Completed initialization in 1 ms
+2021-09-03 20:18:36,889 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-7] Find token by token Number:2
+2021-09-03 20:18:42,188 INFO com.rcs2.cms.controller.QMSController [http-nio-8081-exec-6] Start to process token, token text:2, counter number1
+2021-09-03 20:18:42,247 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-6] Barcorde remort send request token number: 2
+2021-09-03 20:18:46,380 INFO com.rcs2.cms.service.RestClient [http-nio-8081-exec-6] Barcorde remort send success
+2021-09-03 20:18:58,425 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-09-03 20:48:58,426 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2021-09-03 21:18:58,427 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2021-09-03 21:48:57,839 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+2021-09-03 22:18:57,841 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-3] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 4]
+2021-09-03 22:48:57,842 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-2] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 6, active threads = 1, queued tasks = 0, completed tasks = 5]
+2021-09-03 23:18:57,843 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-4] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 7, active threads = 1, queued tasks = 0, completed tasks = 6]
+2021-09-03 23:48:57,845 INFO org.springframework.web.socket.config.WebSocketMessageBrokerStats [MessageBroker-1] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 7]

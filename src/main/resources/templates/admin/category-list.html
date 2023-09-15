@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{fragments/layout}">
+
+<head>
+  <title>Category Management</title>
+</head>
+
+<body>
+	<div layout:fragment="content" th:remove="tag">
+		<main id="main" class="main container">
+			
+			<div class="pagetitle">
+				<h1>Category Management</h1>
+				<nav>
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="/secure/home">Home</a></li>
+						<li class="breadcrumb-item">Category Management</li>
+						<li class="breadcrumb-item active"><a href="/api/listCategories">Categories</a></li>
+					</ol>
+				</nav>
+			</div>
+
+			<!--Category Modal Button-->
+			<a type = "button" class="btn btn-danger" data-toggle="modal" id="addCategory" data-target="#newCategory">New Category</a>
+			
+			<div class="col-12">
+				<div th:if="${param.error}">
+					<div class="alert alert-danger">Can not delete record</div>
+				</div>
+				<div th:if="${param.success}">
+					<div class="alert alert-info">Record deleted successfully</div>
+				</div>
+			</div>
+											
+			<!--Category List -->
+			<table class="table datatable">
+				<thead>
+					<tr>
+						<th>Category ID</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Image</th>
+						<th>Status</th>
+						<th>Create</th>
+						<th>Last Update</th>
+					</tr>
+				</thead>	
+				<tbody>
+					<tr th:each="category : ${categoryList}">
+						<td th:text="${category.categoryId}" th:if="${category.categoryId} != null"></td>
+						<td th:if="${category.categoryId} == null">-</td>
+						
+						<td th:text="${category.name}" th:if="${category.name} != null"></td>
+						<td th:if="${category.name} == null">-</td>
+						
+						<td th:text="${category.description}" th:if="${category.description} != null"></td>
+						<td th:if="${category.description} == null">-</td>
+						
+						<td th:text="${category.image}" th:if="${category.image} != null"></td>
+						<td th:if="${category.image} == null">-</td>
+						
+						<td th:if="${category.status} == ${T(com.rcs2.cms.model.Category.Status).ACTIVE}">ACTIVE</td>
+						<td th:if="${category.status} == ${T(com.rcs2.cms.model.Category.Status).DEACTIVE}">DEACTIVE</td>
+						<td th:if="${category.status} == null">-</td>
+						
+						<td th:text="${category.createBy} + ' | ' + ${category.createDate}" th:if="(${category.createBy} != null) OR (${category.createDate} != null)"></td>
+						<td th:if="(${category.createBy} == null) AND (${category.createDate} == null)">-</td>
+						
+						<td th:text="${category.updateBy} + ' | ' + ${category.updateDate}" th:if="(${category.updateBy} != null) OR (${category.updateDate} != null)"></td>
+						<td th:if="(${category.updateBy} == null) AND (${category.updateDate} == null)">-</td>
+						
+						<td colspan=2 style="letter-spacing: 10px;">
+							<a type = "button" class="bi bi-pencil-square" title="Update" th:onclick="|updateCategory('${category.categoryId}')|"></a>
+							<a type = "button" class="bi bi-trash" title="Delete" th:onclick="|deleteCategory('${category.categoryId}')|"></a>
+							<a type = "button" class="bi bi-clipboard-check"  title = "Deactivate" th:onclick="|deactiveCategory('${category.categoryId}')|" th:if="${category.status} == ${T(com.rcs2.cms.model.Category.Status).ACTIVE}"></a>
+							<a type = "button" class="bi bi-clipboard-x" title = "Activate" th:onclick="|activeCategory('${category.categoryId}')|" th:if="${category.status} == ${T(com.rcs2.cms.model.Category.Status).DEACTIVE}"></a>	
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</main><!-- End #main -->	
+		
+		<!--Category Modal -->
+		<div class="modal fade" id="newCategory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Category Details</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">																	
+				<form class="row g-3" id = "newCategory" th:object="${category}">
+					<input type="hidden" th:field="*{categoryId}" id="categoryId" name="categoryId" class="form-control" readonly>
+					<input type="hidden" th:field="*{status}" id="status" name="status" class="form-control" readonly>
+					<input type="hidden" th:field="*{createBy}" id="createBy" name="createBy" class="form-control" readonly>
+					<input type="hidden" th:field="*{createDate}" id="createDate" name="createDate" class="form-control" readonly>
+					<input type="hidden" th:field="*{updateBy}" id="updateBy" name="updateBy" class="form-control" readonly>
+					<input type="hidden" th:field="*{updateDate}" id="updateDate" name="updateDate" class="form-control" readonly>
+					
+					<div class="col-md-12" >
+						<label for="name" class="form-label">Name<span class="asterisk_input"></span></label>
+						<input type = "text" th:field="*{name}" id = "name" name="name"  class="form-control" required>
+					</div>
+					 
+					<div class="col-md-12">
+						<label for="description" class="form-label">Description<span class="asterisk_input"></span></label>
+						<input type="text" th:field="*{description}" id="description" name="description" class="form-control" required>
+					</div>
+					
+					<div class="col-md-6">
+						<label for="description" class="form-label">Image<span class="asterisk_input"></span></label>
+						<input type="hidden" th:field="*{image}" id="image" name="image" class="form-control" required>
+						<input type="file" id="imagePath" class="form-control" required>
+					</div>
+					
+					<div class="col-md-5" id="imageLoader" style="background-color:red;"></div>
+					 
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" id = "saveCategory" class="btn btn-primary" onClick="saveCategory()">Add</button>
+				<button type="reset" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<script src="js/category.management.js"></script>
+		
+  	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
